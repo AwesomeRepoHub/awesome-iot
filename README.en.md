@@ -5,7 +5,7 @@
 
 <p><img alt="stars" src="https://img.shields.io/github/stars/AwesomeRepoHub/awesome-iot?style=flat-square&color=0969da&label=stars"> <img alt="license" src="https://img.shields.io/github/license/AwesomeRepoHub/awesome-iot?style=flat-square&color=2da44e"> <img alt="last commit" src="https://img.shields.io/github/last-commit/AwesomeRepoHub/awesome-iot?style=flat-square&color=8250df"></p>
 
-<p><a href="README.md">中文</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/AwesomeRepoHub/awesome-index">All collections</a></p>
+<p><a href="README.md">中文</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="REFERENCES.md">References</a> · <a href="https://github.com/AwesomeRepoHub/awesome-index">All collections</a></p>
 </div>
 
 > **28 projects, 555k stars in total.** Stars, licenses and last-commit dates are pulled from the GitHub API and refreshed on 2026-10-24. Sorted by stars for reference only — popularity is not quality.
