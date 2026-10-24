@@ -8,7 +8,9 @@
 <p><a href="README.en.md">English</a> · <a href="CONTRIBUTING.md">参与贡献</a> · <a href="https://github.com/AwesomeRepoHub/awesome-index">全部合集</a></p>
 </div>
 
-> **17 个项目，共 412k Stars。** Stars、许可证、最近提交时间由 GitHub API 实时读取，数据更新于 2026-10-24。排名按 Stars 排序，仅作热度参考，不代表质量。
+> **28 个项目，共 555k Stars。** Stars、许可证、最近提交时间由 GitHub API 实时读取，数据更新于 2026-10-24。排名按 Stars 排序，仅作热度参考，不代表质量。
+
+<sub>读表说明：Stars 与「更新」都是生成时从 GitHub API 读到的真实值；许可证取自仓库；括号里是使用前要知道的限制。</sub>
 
 ## 30 秒选型
 
@@ -25,57 +27,78 @@
 - [固件与开发板](#固件与开发板)
 - [设备界面与工具链](#设备界面与工具链)
 - [数据与固件分析](#数据与固件分析)
+- [学习与入门](#学习与入门)
 
 ## 家居与设备平台
 
-先选平台，再选设备，顺序反了会重复造轮子。
+_先选平台，再选设备，顺序反了会重复造轮子。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [Home Assistant](https://github.com/home-assistant/core) | 本地优先的智能家居中枢，设备接入极多，自动化可视化编辑 | 91.7k | `Apache-2.0` |
-| [Node-RED](https://github.com/node-red/node-red) | 拖节点连线做设备联动，不写代码也能接 MQTT/HTTP | 23.8k | `Apache-2.0` |
-| [ThingsBoard](https://github.com/thingsboard/thingsboard) | 设备管理、数据采集、规则引擎一体的 IoT 平台 | 22.6k | `自定义` |
-| [EMQX](https://github.com/emqx/emqx) | 高并发 MQTT broker，百万连接级别，支持规则转发 | 16.9k | `自定义` |
-| [ESPHome](https://github.com/esphome/esphome) | 用 YAML 生成 ESP 固件，和 Home Assistant 原生打通 | 11.9k | `自定义` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [Home Assistant](https://github.com/home-assistant/core) | 本地优先的智能家居中枢，设备接入极多，自动化可视化编辑 | 91.7k | `Apache-2.0` | 2026-10 |
+| [Node-RED](https://github.com/node-red/node-red) | 拖节点连线做设备联动，不写代码也能接 MQTT/HTTP | 23.8k | `Apache-2.0` | 2026-10 |
+| [ThingsBoard](https://github.com/thingsboard/thingsboard) | 设备管理、数据采集、规则引擎一体的 IoT 平台 | 22.6k | `自定义` | 2026-10 |
+| [EMQX](https://github.com/emqx/emqx) | 高并发 MQTT broker，百万连接级别，支持规则转发 | 16.9k | `自定义` | 2026-10 |
+| [ESPHome](https://github.com/esphome/esphome) | 用 YAML 生成 ESP 固件，和 Home Assistant 原生打通 | 11.9k | `自定义` | 2026-10 |
+| [Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) | 轻量 MQTT broker，树莓派就能跑，协议实现最标准 | 11.3k | `自定义` | 2026-10 |
+| [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) | 给 xiaozhi-esp32 做后端，快速搭语音设备服务端 | 11.0k | `MIT` | 2026-10 |
 
 <sub>[回到目录](#目录)</sub>
 
 ## 固件与开发板
 
-刷机前先确认设备型号与回滚方式。
+_刷机前先确认设备型号与回滚方式。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) | 基于 MCP 的语音聊天机器人，ESP32 上跑中文对话 | 31.8k | `MIT` |
-| [Tasmota](https://github.com/arendst/Tasmota) | 免写代码给插座灯泡刷固件，本地控制不依赖云 | 24.9k | `GPL-3.0` |
-| [MicroPython](https://github.com/micropython/micropython) | 单片机上跑 Python，改一行看一行，调试最快 | 22.1k | `自定义` |
-| [QMK Firmware](https://github.com/qmk/qmk_firmware) | 键盘固件，自定义键位、分层与宏 | 20.8k | `GPL-2.0` |
-| [WLED](https://github.com/wled/WLED) | 灯带效果控制器，网页调色与音乐同步 | 18.9k | `EUPL-1.2` |
-| [Arduino ESP32](https://github.com/espressif/arduino-esp32) | ESP32 官方 Arduino 核心，入门首选 | 17.6k | `LGPL-2.1` |
-| [Zephyr](https://github.com/zephyrproject-rtos/zephyr) | 工业级 RTOS，多架构支持，认证与长期维护 | 16.9k | `Apache-2.0` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) | 基于 MCP 的语音聊天机器人，ESP32 上跑中文对话 | 31.8k | `MIT` | 2026-10 |
+| [Tasmota](https://github.com/arendst/Tasmota) | 免写代码给插座灯泡刷固件，本地控制不依赖云 | 24.9k | `GPL-3.0` | 2026-10 |
+| [MicroPython](https://github.com/micropython/micropython) | 单片机上跑 Python，改一行看一行，调试最快 | 22.1k | `自定义` | 2026-10 |
+| [QMK Firmware](https://github.com/qmk/qmk_firmware) | 键盘固件，自定义键位、分层与宏 | 20.8k | `GPL-2.0` | 2026-10 |
+| [WLED](https://github.com/wled/WLED) | 灯带效果控制器，网页调色与音乐同步 | 18.9k | `EUPL-1.2` | 2026-10 |
+| [Marlin](https://github.com/MarlinFirmware/Marlin) | RepRap 3D 打印机固件，8 位与 32 位都支持 | 17.6k | `GPL-3.0` | 2026-10 |
+| [Arduino ESP32](https://github.com/espressif/arduino-esp32) | ESP32 官方 Arduino 核心，入门首选 | 17.6k | `LGPL-2.1` | 2026-10 |
+| [Zephyr](https://github.com/zephyrproject-rtos/zephyr) | 工业级 RTOS，多架构支持，认证与长期维护 | 16.9k | `Apache-2.0` | 2026-10 |
+| [RT-Thread](https://github.com/RT-Thread/rt-thread) | 国产 RTOS，组件丰富，中文资料多 | 12.3k | `Apache-2.0` | 2026-10 |
+| [Klipper](https://github.com/Klipper3d/klipper) | 3D 打印机固件，把计算放到上位机，精度更高 | 12.0k | `GPL-3.0` | 2026-10 |
+| [Betaflight](https://github.com/betaflight/betaflight) | 穿越机飞控固件，调参与社区生态成熟 | 11.7k | `GPL-3.0` | 2026-10 |
 
 <sub>[回到目录](#目录)</sub>
 
 ## 设备界面与工具链
 
-决定开发速度的一层，别等硬件定型才补。
+_决定开发速度的一层，别等硬件定型才补。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [LVGL](https://github.com/lvgl/lvgl) | 嵌入式 GUI 库，低资源设备也能做出流畅界面 | 25.0k | `MIT` |
-| [TinyGo](https://github.com/tinygo-org/tinygo) | 用 Go 写单片机程序，二进制小、并发模型好 | 17.8k | `自定义` |
-| [PlatformIO](https://github.com/platformio/platformio-core) | 跨平台嵌入式构建工具，依赖与烧录一条命令 | 9.6k | `Apache-2.0` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [LVGL](https://github.com/lvgl/lvgl) | 嵌入式 GUI 库，低资源设备也能做出流畅界面 | 25.0k | `MIT` | 2026-10 |
+| [TinyGo](https://github.com/tinygo-org/tinygo) | 用 Go 写单片机程序，二进制小、并发模型好 | 17.8k | `自定义` | 2026-10 |
+| [Johnny-Five](https://github.com/rwaldron/johnny-five) | 用 JavaScript 控制 Arduino 与传感器，适合快速验证（长期未更新（2023-10），仅作参考） | 13.4k | `自定义` | 2023-10 |
+| [Mongoose](https://github.com/cesanta/mongoose) | 单文件嵌入式 Web 服务器，带 TCP/IP、MQTT、WebSocket | 13.1k | `自定义` | 2026-10 |
+| [Embassy](https://github.com/embassy-rs/embassy) | Rust 异步嵌入式框架，省电且类型安全 | 10.0k | `Apache-2.0` | 2026-10 |
+| [PlatformIO](https://github.com/platformio/platformio-core) | 跨平台嵌入式构建工具，依赖与烧录一条命令 | 9.6k | `Apache-2.0` | 2026-10 |
 
 <sub>[回到目录](#目录)</sub>
 
 ## 数据与固件分析
 
-设备一多，瓶颈就从代码变成数据。
+_设备一多，瓶颈就从代码变成数据。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [TDengine](https://github.com/taosdata/TDengine) | 时序数据库，专为设备数据的高写入量优化 | 25.2k | `AGPL-3.0` |
-| [Binwalk](https://github.com/ReFirmLabs/binwalk) | 固件拆包与特征分析，逆向和审计的第一步 | 14.5k | `MIT` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [TDengine](https://github.com/taosdata/TDengine) | 时序数据库，专为设备数据的高写入量优化 | 25.2k | `AGPL-3.0` | 2026-10 |
+| [Binwalk](https://github.com/ReFirmLabs/binwalk) | 固件拆包与特征分析，逆向和审计的第一步 | 14.5k | `MIT` | 2026-08 |
+
+<sub>[回到目录](#目录)</sub>
+
+## 学习与入门
+
+_先搭硬件再谈项目，课程能省掉大量试错。_
+
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [IoT for Beginners](https://github.com/microsoft/IoT-For-Beginners) | 微软 12 周课程，从传感器到云端项目齐备 | 17.2k | `MIT` | 2026-05 |
+| [Embedded Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap) | 嵌入式工程师学习路线图，标出每阶段该学什么 | 13.7k | `CC-BY-SA-4.0` | 2026-10 |
 
 <sub>[回到目录](#目录)</sub>
 
